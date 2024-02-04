@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "inter-ui-medium";
+    src: url("assets/inter-ui-medium.woff") format('woff');
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    font-family: inter-ui-medium;
+    font-size: 60px;
+}
+
+body,
+html {
+    padding: 0;
+    height: 100%;
+}
+
+#container {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    user-select: none;
+    color: #37352F;
+}
